@@ -1,0 +1,29 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# ignore for auction contract
+auction/contract.manifest.json
+auction/contract.nef
+auction/go.sum
+
+# ignore for nft contract
+nft/contract.manifest.json
+nft/contract.nef
+nft/go.sum
+
+# ignore for nns contract
+nns/contract.manifest.json
+nns/contract.nef
+nns/go.sum
+
+go.sum

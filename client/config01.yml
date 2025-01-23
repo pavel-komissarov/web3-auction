@@ -1,0 +1,7 @@
+wallet: "wallet01.json"
+password: ""
+rpc_endpoint: "http://localhost:30333"
+rpc_endpoint_ws: "ws://localhost:30333/ws"
+backend_key: "03b09baabff3f6107c7e9acb8721a6fc5618d45b50247a314d82e548702cce8cd5"
+nns_contract: "8477fcff838587103b4d008a198a4a0c3a62a5b2"
+backend_url: "http://localhost:5555"

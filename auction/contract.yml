@@ -1,0 +1,11 @@
+name: auction
+sourceurl: http://example.com/
+safemethods: []
+supportedstandards: []
+events:
+  - name: info
+    parameters:
+      - name: message
+        type: ByteString
+permissions:
+    - methods: '*'
