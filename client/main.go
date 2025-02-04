@@ -226,7 +226,7 @@ func GetNnsResolve(domainName string, nnsContractHash string, rpcEndpoint string
 	var rpcResponse RPCResponse
 
 	// Парсим JSON-ответ
-	err = json.Unmarshal([]byte(string(body)), &rpcResponse)
+	err = json.Unmarshal(body, &rpcResponse)
 	if err != nil {
 		fmt.Println("Ошибка парсинга JSON:", err)
 		return util.Uint160{}, err
